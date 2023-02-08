@@ -3,8 +3,8 @@ import './work.css'
 
 const Work = () => {
   return (
-    <div>Work</div>
-  )
+    <section id="work">Work</section>
+    )
 }
 
 export default Work

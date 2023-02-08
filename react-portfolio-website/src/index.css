@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@100;700&display=swap');
 
 * {
     margin: 0;
@@ -12,11 +11,11 @@
 }
 
 :root {
-    --color-bg: #646666;
+    --color-bg: #d8dddd;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-primary: #f8d49b;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: rgb(44, 42, 42);
+    --color-white: rgb(57, 55, 55);
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
@@ -35,13 +34,26 @@ html {
     display: none;
 }
 
+header > div > h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #3196e2;
+    font-weight: 700;
+}
+
+header > div > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    /* padding-bottom: 2rem; */
+}
+
+
 body {
     font-family: 'Noto Serif', serif;
     /* font-family: 'Roboto', sans-serif; */
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/grainy-background.png); */
+    background-image: url(../src/assets/grainy-background.png);
 }
 
 .container {
@@ -59,6 +71,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -87,29 +100,36 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-white);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid --color-primary;
     transition: var(--transition);
+    margin: 2rem 1rem;
+    border: 2px solid #f8bc9b;
+    box-shadow: 5px 5px 10px rgb(151, 151, 151);
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: rgb(120, 113, 113);
+    /* background: #fcbc66; */
+    color: #f5f5f9f5;
     border-color: transparent;
+    box-shadow: 5px 5px 10px grey;
+
 }
 
-.btn -primary {
+.btn-primary {
     background: var(--color-primary);
-    color: var(--color-bg);
+    /* color: #666060; */
+    color: var(--color-white);
+
 }
 
 img {
-    display: block;
+    /* display: block;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover; */
 }
 
 /* medium devices */
