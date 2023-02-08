@@ -46,6 +46,8 @@ img:hover {
     );
     display: grid;
     place-items: center;
+    box-shadow: 5px 5px 10px grey;
+
 }
 
 #web__highlight {

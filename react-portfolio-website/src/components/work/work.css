@@ -1,0 +1,30 @@
+.portfolio__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid;
+    width: 25rem;
+    height: 20rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    word-wrap: break-word;
+    overflow:hidden;
+}
+
+article > h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+
+.skills__icons {
+    display: flex;
+    font-size: 1.5rem;
+}

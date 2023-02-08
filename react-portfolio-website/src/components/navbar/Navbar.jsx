@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className='label__icons'>
         <a href="#work" onClick={() => setActiveNav('#work')} className={activeNav === '#work' ? 'active' : ''}><AiOutlineBook/></a>
-        <p>Work</p>
+        <p>Portfolio</p>
       </div>
       <div className='label__icons'>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
