@@ -10,12 +10,12 @@ const Landing = () => {
       <div className="header__container">
         <h3> Hey there! I'm, </h3>
         <h1 style={{fontSize: '3rem'}}><b>Madhuri Palanivelu</b></h1>
-        <h3 style={{paddingTop: '1rem'}}>Fullstack Engineer who loves all things <mark id="web__highlight">Web</mark>, <mark id="design__highlight">Design</mark>, and <mark id="docs__highlight">Docs</mark>.</h3>
+        <h3 style={{paddingTop: '1rem'}}>Fullstack Engineer who loves all things <mark className="green__highlight">Web</mark>, <mark className="pink__highlight">Design</mark>, and <mark className="blue__highlight">Docs</mark>.</h3>
         <CTA />
       </div>
 
       <div className="img__container">
-        <div className="me__image">
+        <div>
           <img src={me} alt="My Picture" />
         </div>
       </div>
