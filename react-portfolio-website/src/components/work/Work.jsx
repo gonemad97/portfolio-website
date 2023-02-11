@@ -9,8 +9,8 @@ import {SiTypescript, SiFigma} from 'react-icons/si'
 const Work = () => {
   return (
     <section id="work">
-      <h1>Portfolio</h1>
-      <h3>Projects I've Worked On</h3>
+      <h1 style={{fontSize: '4rem'}}>Portfolio</h1>
+      <h3 >Projects I've Worked On.</h3>
 
       <div className='container portfolio__container'>
         <article className='card'>

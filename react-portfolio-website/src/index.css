@@ -50,10 +50,9 @@ header > div > h3 {
 body {
     font-family: 'Noto Serif', serif;
     /* font-family: 'Roboto', sans-serif; */
-    background: var(--color-bg);
+    background: #f6f6f3;
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/grainy-background.png);
 }
 
 .container {
@@ -76,14 +75,14 @@ section {
 
 section > h1 {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 section > h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 section > h2 {

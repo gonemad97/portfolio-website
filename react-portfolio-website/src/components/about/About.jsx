@@ -7,7 +7,9 @@ import {BsEmojiSmile} from 'react-icons/bs'
 const About = () => {
   return (
     <section id="about">
-      <h1>About Me</h1><br/>
+      <h1 style={{fontSize: '4rem'}}>About Me</h1>
+      <h3 >Hey There.</h3>
+      
       <div className="container about__container">
         <div className="about__img__container">
           <div>
