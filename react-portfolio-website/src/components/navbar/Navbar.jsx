@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './navbar.css'
+// import './navbar.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineMail, AiOutlineBook} from 'react-icons/ai'
 
 const Navbar = () => {

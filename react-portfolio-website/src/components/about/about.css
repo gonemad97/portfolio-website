@@ -1,10 +1,13 @@
 .about__container {
+    height: 90vh;
+    padding-top: 10rem;
+    background: #d2e4cf;
+    border-radius: 1rem;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-around; */
-    justify-content:space-evenly;
-    /* gap: 3rem; */
-
+    justify-content: center;
+    gap: 7rem;
 }
 
 .about__img {
@@ -41,7 +44,8 @@
 }
 
 .about__card {
-    width: 30rem;
+    width: 40rem;
+    height: 30rem;
     background: #f4ede1;
     border: 1px solid rgb(57, 55, 55);
     border-radius: 2rem;

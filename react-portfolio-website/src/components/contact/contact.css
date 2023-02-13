@@ -1,4 +1,11 @@
+.contact {
+    height: 90vh;
+    border-radius: 1rem;
+    background: rgb(243, 244, 210);
+}
+
 form {
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -9,7 +16,7 @@ input, textarea {
     width: 50%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: #f4ede1;
+    background: #edf1f1;
     resize: none;
     border: 1px solid rgb(57, 55, 55);
     font-family: 'Roboto', sans-serif;

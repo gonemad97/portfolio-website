@@ -25,7 +25,7 @@ const Contact = () => {
       <h1 style={{fontSize: '4rem'}}>Contact Me</h1>
       <h3 >Let's Chat.</h3>
 
-      <div className='container'>
+      <div className='contact container'>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Enter your name' required></input>
           <input type="email" name="email" placeholder='Enter your email id' required></input>
