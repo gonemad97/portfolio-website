@@ -3,6 +3,7 @@ import './landing.css'
 import CTA from './CTA'
 import me from '../../assets/me1.jpg'
 import {BsChevronRight} from 'react-icons/bs'
+import Socials from './Socials'
 
 const Landing = () => {
   return (

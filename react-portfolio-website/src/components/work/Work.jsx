@@ -63,33 +63,6 @@ const Work = () => {
             {/* <a href="https://github.com/gonemad97" target='__blank' className='btn'><MdOutlineOpenInNew style={{fontSize: '1.3rem'}}/></a> */}
           </div>
         </article>
-
-        <article className='card box5'>
-          <h2><mark className='yellow__highlight'>BarHopper</mark></h2>
-          <h4>App design for a menu and payment app for bars/pubs</h4>
-          {/* icons for skills */}
-          <div className='skills__icons'>
-            <SiFigma/><DiReact/><DiCss3/><DiHtml5/><DiJavascript1/>
-          </div>
-          <div className='cta'>
-            <a href="https://github.com/gonemad97" target='__blank' className='btn'><BsGithub style={{fontSize: '1.3rem'}}/></a>
-            {/* <a href="https://github.com/gonemad97" target='__blank' className='btn'><MdOutlineOpenInNew style={{fontSize: '1.3rem'}}/></a> */}
-          </div>
-        </article>
-
-        <article className='card box6'>
-          <h2><mark className='yellow__highlight'>BarHopper</mark></h2>
-          <h4>App design for a menu and payment app for bars/pubs</h4>
-          {/* icons for skills */}
-          <div className='skills__icons'>
-            <SiFigma/><DiReact/><DiCss3/><DiHtml5/><DiJavascript1/>
-          </div>
-          <div className='cta'>
-            <a href="https://github.com/gonemad97" target='__blank' className='btn'><BsGithub style={{fontSize: '1.3rem'}}/></a>
-            {/* <a href="https://github.com/gonemad97" target='__blank' className='btn'><MdOutlineOpenInNew style={{fontSize: '1.3rem'}}/></a> */}
-          </div>
-        </article>
-
         
 
       </div>

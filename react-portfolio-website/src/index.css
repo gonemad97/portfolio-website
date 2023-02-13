@@ -172,6 +172,17 @@ a:hover {
     /* box-shadow: 5px 5px 10px rgb(151, 151, 151); */
 }
 
+.socials {
+    font-size: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social__icon {
+    color: rgb(96, 95, 95);
+}
+
 /* medium devices */
 @media screen and (max-width: 1024px) {
     .container {
