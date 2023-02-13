@@ -5,15 +5,16 @@ import Landing from './components/landing/Landing'
 import Work from './components/work/Work'
 import About from './components/about/About'
 import Footer from './components/footer/Footer'
+import NavbarTop from './components/navbar/NavbarTop'
 
 
 const App = () => {
   return ( 
   <>
+    <NavbarTop />
     <Landing />
-    <Navbar />
-    <Work />
     <About />
+    <Work />
     <Contact />
     <Footer />
   </>

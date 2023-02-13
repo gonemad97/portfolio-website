@@ -20,7 +20,7 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 80%;
+    --container-width-lg: 95%;
     --container-width-md: 86%;
     --container-width-sm: 90%
 
@@ -40,7 +40,7 @@ header > div > h4 {
     font-weight: 700;
 }
 
-header > div > h3 {
+header > div > h3, header > div > div > h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     /* padding-bottom: 2rem; */
@@ -50,10 +50,9 @@ header > div > h3 {
 body {
     font-family: 'Noto Serif', serif;
     /* font-family: 'Roboto', sans-serif; */
-    background: var(--color-bg);
+    background: #f6f6f3;
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/grainy-background.png);
 }
 
 .container {
@@ -71,19 +70,19 @@ h1 {
 
 section {
     /* margin-top: 3rem; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 section > h1 {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 section > h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 section > h2 {
@@ -106,6 +105,7 @@ a:hover {
 
 .btn {
     width: max-content;
+    background: #edf1f1;
     display: inline-block;
     color: var(--color-white);
     padding: 0.75rem 1.2rem;
@@ -113,7 +113,7 @@ a:hover {
     cursor: pointer;
     transition: var(--transition);
     margin: 2rem 1rem;
-    border: 2px solid #f8bc9b;
+    border: 1px solid rgb(57, 55, 55);
     box-shadow: 5px 5px 10px rgb(151, 151, 151);
 }
 
@@ -136,25 +136,31 @@ a:hover {
 
 
 .green__highlight {
-    background-color: #a6c1a2;
+    /* background-color: #a6c1a2; */
+    background-color: #d2e4cf;
     padding:0.1em 0.1em;
     border-radius: 10px;
+    font-size: 2.5rem;
     /* box-shadow: 5px 5px 10px rgb(151, 151, 151); */
 
 }
 
 .pink__highlight {
-    background-color: #f89b9b;
+    /* background-color: #f89b9b; */
+    background-color: #f6cbcb;
     padding:0.1em 0.1em;
     border-radius: 10px;
+    font-size: 2.5rem;
     /* box-shadow: 5px 5px 10px rgb(151, 151, 151); */
 
 }
 
 .blue__highlight {
-    background-color: #75bde0;
+    /* background-color: #75bde0; */
+    background-color: #f6f9c8;
     padding:0.1em 0.1em;
     border-radius: 10px;
+    font-size: 2.5rem;
     /* box-shadow: 5px 5px 10px rgb(151, 151, 151); */
 }
 
@@ -164,6 +170,17 @@ a:hover {
     padding:0.1em 0.1em;
     border-radius: 10px;
     /* box-shadow: 5px 5px 10px rgb(151, 151, 151); */
+}
+
+.socials {
+    font-size: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social__icon {
+    color: rgb(96, 95, 95);
 }
 
 /* medium devices */

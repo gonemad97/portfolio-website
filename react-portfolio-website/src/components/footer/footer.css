@@ -1,0 +1,13 @@
+footer {
+    margin-top: 2rem;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(167, 166, 166);
+}
+
+footer > p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

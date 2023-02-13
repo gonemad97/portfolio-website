@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './navbar.css'
+// import './navbar.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineMail, AiOutlineBook} from 'react-icons/ai'
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className='label__icons'>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
-        <p>About Me</p>
+        <p>About</p>
       </div>
       <div className='label__icons'>
         <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMail/></a>
