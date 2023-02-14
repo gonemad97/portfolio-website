@@ -1,6 +1,6 @@
 header {
     height: 85vh;
-    padding-top: 15rem;
+    padding-top: 10rem;
     /* overflow:hidden; */
     background: #d1ecee;
     border-radius: 1rem;
@@ -103,7 +103,7 @@ header {
 	left: 0;
 	position: absolute;
 	right: 0;
-	top: 200px;
+	top: auto;
 	z-index:0;
 }
 
