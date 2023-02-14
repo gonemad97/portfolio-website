@@ -4,7 +4,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid rgb(207, 205, 205);
+    /* border-top: 1px solid rgb(207, 205, 205); */
 }
 
 footer > p {
