@@ -1,11 +1,11 @@
 .contact {
-    height: 75vh;
+    height: 65vh;
     /* background-color: #f4f1e6;
     border-radius: 1rem; */
 }
 
 form {
-    padding-top: 5rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -13,7 +13,7 @@ form {
 }
 
 input, textarea {
-    width: 50%;
+    width: 30%;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: #edf1f1;

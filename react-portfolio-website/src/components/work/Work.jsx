@@ -21,11 +21,12 @@ const Work = () => {
         </article>
 
         <article className='card box2'>
-          <h2><mark className='yellow__highlight'>BarHopper</mark></h2>
+          <h2>BarHopper</h2>
           <h4>App design for a menu and payment app for bars/pubs</h4>
           {/* icons for skills */}
-          <div className='skills__icons'>
-            <SiFigma/><DiReact/><DiCss3/><DiHtml5/><DiJavascript1/>
+          <div className='skills__container'>
+            <div className='skill__box'>React</div><div className='skill__box'>Javascript</div>
+            <div className='skill__box'>HTML/CSS</div><div className='skill__box'>Git</div><div className='skill__box'>RESTful APIs</div>
           </div>
           <div className='cta'>
             <a href="https://github.com/gonemad97" target='__blank' className='btn'><BsGithub style={{fontSize: '1.3rem'}}/></a>
@@ -34,11 +35,13 @@ const Work = () => {
         </article>
 
         <article className='card__right box3'>
-          <h2><mark className='yellow__highlight'>BarHopper</mark></h2>
+          <h2>BarHopper</h2>
           <h4>App design for a menu and payment app for bars/pubs</h4>
           {/* icons for skills */}
-          <div className='skills__icons'>
-            <SiFigma/><DiReact/><DiCss3/><DiHtml5/><DiJavascript1/>
+          <div className='skills__container'>
+            <div className='skill__box'>React</div><div className='skill__box'>Javascript</div>
+            <div className='skill__box'>HTML/CSS</div><div className='skill__box'>Git</div><div className='skill__box'>RESTful APIs</div>
+            <div className='skill__box'>Figma</div>
           </div>
           <div className='cta'>
             <a href="https://github.com/gonemad97" target='__blank' className='btn'><BsGithub style={{fontSize: '1.3rem'}}/></a>
@@ -55,11 +58,13 @@ const Work = () => {
         </article>
 
         <article className='card box6'>
-          <h2><mark className='yellow__highlight'>BarHopper</mark></h2>
+          <h2>BarHopper</h2>
           <h4>App design for a menu and payment app for bars/pubs</h4>
           {/* icons for skills */}
-          <div className='skills__icons'>
-            <SiFigma/><DiReact/><DiCss3/><DiHtml5/><DiJavascript1/>
+          <div className='skills__container'>
+            <div className='skill__box'>React</div><div className='skill__box'>Javascript</div>
+            <div className='skill__box'>HTML/CSS</div><div className='skill__box'>Git</div><div className='skill__box'>RESTful APIs</div>
+            <div className='skill__box'>Figma</div>
           </div>
           <div className='cta'>
             <a href="https://github.com/gonemad97" target='__blank' className='btn'><BsGithub style={{fontSize: '1.3rem'}}/></a>

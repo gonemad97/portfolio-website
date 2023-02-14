@@ -122,6 +122,25 @@ a:hover {
     color: var(--color-white);
 }
 
+.skills__container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+.skill__box {
+    background-color: #e7dece;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 0.2rem;
+}
+
 .btn {
     width: max-content;
     background: #edf1f1;
@@ -207,19 +226,11 @@ a:hover {
     .container {
         width: var(--container-width-md);
     }
-
-    section {
-        margin-top: 6rem;
-    }
 }
 
 /* medium devices */
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
-    }
-
-    section > h2 {
-        margin-bottom: 2rem;
     }
 }

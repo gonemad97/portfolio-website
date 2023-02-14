@@ -1,10 +1,10 @@
 footer {
     margin-top: 2rem;
-    height: 10vh;
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid rgb(167, 166, 166);
+    border-top: 1px solid rgb(207, 205, 205);
 }
 
 footer > p {

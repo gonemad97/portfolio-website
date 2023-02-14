@@ -3,7 +3,7 @@ import './navbartop.css'
 import me from '../../assets/me1.jpg'
 
 
-import {AiOutlineHome, AiOutlineUser, AiOutlineMail, AiOutlineBook} from 'react-icons/ai'
+import {AiOutlineMedium, AiOutlineUser, AiOutlineMail, AiOutlineBook} from 'react-icons/ai'
 
 const NavbarTop = () => {
   return (
@@ -16,7 +16,7 @@ const NavbarTop = () => {
             <ul className='navbar__items'>
                 <li><a className='nav-link bar-up flex__icons' href="#about"><AiOutlineUser style={{fontSize:'1.5rem'}}/>about</a></li>
                 <li><a className='nav-link bar-up flex__icons' href="#work"><AiOutlineBook style={{fontSize:'1.5rem'}}/>portfolio</a></li>
-                <li><a className='nav-link bar-up flex__icons' href="#contact"><AiOutlineMail style={{fontSize:'1.5rem'}}/>contact</a></li>
+                <li><a className='nav-link bar-up flex__icons' href="https://medium.com/@palsmadhu18" target="__blank"><AiOutlineMedium style={{fontSize:'1.5rem'}}/>blog</a></li>
             </ul>
         </div>
     </nav>
