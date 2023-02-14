@@ -10,7 +10,7 @@ import {SiTypescript, SiFigma} from 'react-icons/si'
 
 const Work = () => {
   return (
-    <section id="work" className='container'>
+    <section id="work" className='container__bg container'>
       <h1><mark className='pink__highlight'>Portfolio</mark></h1>
       <h3>Projects I've Worked On.</h3>
 

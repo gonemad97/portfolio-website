@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className='container'>
+    <section id="contact" className='container__bg container'>
       <h1><mark className='lemon__highlight'>Contact</mark></h1>
       <h3 >Let's Chat.</h3>
 

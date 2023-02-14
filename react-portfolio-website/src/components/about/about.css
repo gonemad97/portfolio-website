@@ -1,8 +1,8 @@
 .about__container {
     height: 75vh;
     padding-top: 5rem;
-    background-color: #f4f1e6;
-    border-radius: 1rem;
+    /* background-color: #f4f3ef;
+    border-radius: 1rem; */
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-around; */
@@ -10,13 +10,13 @@
     gap: 7rem;
 }
 
+
 .about__img {
-    border: 1px solid rgb(57, 55, 55);
+    /* border: 1px solid rgb(57, 55, 55); */
     width: 20rem;
     height: 30rem;
-    border-radius: 4rem;
+    border-radius: 1rem;
     flex-shrink: 0;
-    border-radius: 2rem;
     overflow: hidden;
     object-fit: cover;
     /* padding: 1rem; */
@@ -32,7 +32,7 @@
     width: 20rem;
     height: 30rem;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background: linear-gradient(
         45deg,
         transparent,
@@ -48,12 +48,12 @@
 .about__card {
     width: 40rem;
     height: 30rem;
-    background: #f4ede1;
+    /* background: #f4ede1;
     border: 1px solid rgb(57, 55, 55);
-    border-radius: 2rem;
+    border-radius: 2rem; */
     padding: 1.5rem;
-    transition: var(--transition);
-    box-shadow: 5px 5px 10px grey;
+    /* transition: var(--transition);
+    box-shadow: 5px 5px 10px grey; */
     word-wrap: break-word;
     /* display: flex;
     flex-direction: column;

@@ -1,12 +1,12 @@
 .portfolio__container {
-    background-color: #f4f1e6;
-    border-radius: 1rem;
-    height: 180vh;
+    /* background-color: #e9f6ed;
+    border-radius: 1rem; */
+    height: 160vh;
     padding: 10rem;
     display: grid;
     /* grid-template-columns: repeat(2, auto); */
     /* gap: 2.5rem; */
-    row-gap: 2rem;
+    row-gap: 0.5rem;
     /* padding-top: 1rem; */
     grid-auto-rows: 5rem;
 
