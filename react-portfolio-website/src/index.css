@@ -74,20 +74,32 @@ section {
 }
 
 section > h1 {
-    text-align: center;
-    padding-top: 2rem;
+    text-align: justify;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 2px;
+    font-size: 3rem;
 }
 
 section > h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    text-align: justify;
+    padding-left: 20rem;
+    /* margin-bottom: 2rem; */
 }
 
 section > h2 {
-    color: var(--color-primary);
-    margin-bottom: 3rem;
+    text-align: justify;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 2px;
 }
 
 .text-light {
@@ -155,7 +167,7 @@ a:hover {
 
 }
 
-.blue__highlight {
+.lemon__highlight {
     /* background-color: #75bde0; */
     background-color: #f6f9c8;
     padding:0.1em 0.1em;

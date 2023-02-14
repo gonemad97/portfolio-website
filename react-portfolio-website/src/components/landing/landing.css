@@ -53,8 +53,8 @@ header {
     gap: 2rem;
 }
 
-img {
-    /* border: 2px solid rgb(57, 55, 55); */
+/* section > div > div > div > img {
+    border: 2px solid rgb(57, 55, 55);
     width: 20rem;
     height: 25rem;
     border-radius: 4rem;
@@ -64,11 +64,11 @@ img {
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-}
+} */
 
-img:hover {
+/* section > div > div > div > img:hover {
     transform: rotate(0deg);
-}
+} */
 
 .img__container {
     /* border: 2px solid rgb(57, 55, 55); */

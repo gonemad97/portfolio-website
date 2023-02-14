@@ -21,11 +21,11 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <h1 style={{fontSize: '4rem'}}>Contact Me</h1>
+    <section id="contact" className='container'>
+      <h1><mark className='lemon__highlight'>Contact</mark></h1>
       <h3 >Let's Chat.</h3>
 
-      <div className='contact container'>
+      <div className='contact'>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Enter your name' required></input>
           <input type="email" name="email" placeholder='Enter your email id' required></input>

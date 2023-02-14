@@ -1,11 +1,11 @@
 .contact {
     height: 75vh;
+    background-color: #f4f1e6;
     border-radius: 1rem;
-    background: rgb(243, 244, 210);
 }
 
 form {
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;

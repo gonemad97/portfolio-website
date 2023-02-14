@@ -6,11 +6,11 @@ import {BsEmojiSmile} from 'react-icons/bs'
 
 const About = () => {
   return (
-    <section id="about">
-      <h1 style={{fontSize: '4rem'}}>About Me</h1>
+    <section id="about" className='container'>
+      <h1><mark className='green__highlight'>About Me</mark></h1>
       <h3 >Hey There.</h3>
       
-      <div className="container about__container">
+      <div className="about__container">
         <div className="about__img__container">
           <div>
             <img className='about__img' src={me} alt="My Picture" />

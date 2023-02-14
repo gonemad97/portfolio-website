@@ -1,7 +1,6 @@
 import React from 'react'
 import './landing.css'
 import CTA from './CTA'
-import me from '../../assets/me1.jpg'
 import {BsChevronRight} from 'react-icons/bs'
 import Socials from './Socials'
 
@@ -34,7 +33,7 @@ const Landing = () => {
           <h3 style={{fontSize:'4rem', display:'inline'}}> Hey there! I'm </h3>
           <h1 style={{fontSize: '6rem', display:'inline'}}><b>Madhuri.</b></h1>
         </div>
-        <h3 className='animate__block2' style={{fontSize: '2rem',paddingTop: '1rem'}}>A Fullstack Engineer who loves all things <mark className="green__highlight">Web</mark>, <mark className="pink__highlight">Design</mark>, and <mark className="blue__highlight">Docs</mark>.</h3>
+        <h3 className='animate__block2' style={{fontSize: '2rem',paddingTop: '1rem'}}>A Fullstack Engineer who loves all things <mark className="green__highlight">Web</mark>, <mark className="pink__highlight">Design</mark>, and <mark className="lemon__highlight">Docs</mark>.</h3>
         <CTA/>
       </div>
 
