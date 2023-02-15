@@ -2,11 +2,8 @@
     height: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    /* background-color: #f4f3ef;
-    border-radius: 1rem; */
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
     justify-content: center;
     gap: 7rem;
 }

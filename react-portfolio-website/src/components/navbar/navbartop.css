@@ -43,10 +43,8 @@ nav {
 }
 
 .nav-link {
-    /* font-weight: bold; */
     padding: 20px 0px;
     margin: 0px 20px;
-    /* display: inline-block; */
     position: relative;
     opacity: 0.75;
     color:rgb(57, 55, 55);
