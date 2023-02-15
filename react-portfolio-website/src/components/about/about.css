@@ -1,8 +1,9 @@
 .about__container {
-    height: 75vh;
-    padding-top: 10rem;
-    background: #d2e4cf;
-    border-radius: 1rem;
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* background-color: #f4f3ef;
+    border-radius: 1rem; */
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-around; */
@@ -10,35 +11,40 @@
     gap: 7rem;
 }
 
-.about__img {
-    /* border: 2px solid rgb(57, 55, 55); */
-    width: 20rem;
-    height: 30rem;
-    border-radius: 4rem;
-    flex-shrink: 0;
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+.about__para {
+    font-size: 1.1rem;
 }
 
-.about__img:hover {
-    transform: rotate(0deg);
+.skills__container__about {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.about__img {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .about__img__container {
     width: 20rem;
     height: 30rem;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background: linear-gradient(
         45deg,
         transparent,
         #f8d49b,
         transparent
     );
-    /* display: grid;
-    place-items: center; */
     box-shadow: 5px 5px 10px grey;
 
 }
@@ -46,15 +52,137 @@
 .about__card {
     width: 40rem;
     height: 30rem;
-    background: #f4ede1;
-    border: 1px solid rgb(57, 55, 55);
-    border-radius: 2rem;
     padding: 1.5rem;
-    transition: var(--transition);
-    box-shadow: 5px 5px 10px grey;
     word-wrap: break-word;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; */
+    text-align: justify;
+}
 
+article > h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+article > h4 {
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 4rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 0rem;
+        text-align: justify;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 2rem;
+        text-align: justify;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 0rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 1rem 9rem;
+        text-align: justify;
+    }
+
+    .about__para {
+        font-size: 0.9rem;
+    }
+
+    .about__img {
+        width: 15rem;
+        height: 25rem;
+    }
+    
+    .about__img__container {
+        width: 15rem;
+        height: 25rem;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 0rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 0.5rem 13rem;
+        text-align: justify;
+    }
+
+    .about__para {
+        font-size: 0.8rem;
+    }
+
+    .about__img {
+        width: 10rem;
+        height: 20rem;
+    }
+    
+    .about__img__container {
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .skills__container__about {
+        font-size: 1rem;
+    }
 }
