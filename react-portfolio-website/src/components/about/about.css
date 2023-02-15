@@ -1,6 +1,7 @@
 .about__container {
     height: auto;
     padding-top: 5rem;
+    padding-bottom: 5rem;
     /* background-color: #f4f3ef;
     border-radius: 1rem; */
     display: flex;
@@ -10,9 +11,21 @@
     gap: 7rem;
 }
 
+.about__para {
+    font-size: 1.1rem;
+}
+
+.skills__container__about {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
 
 .about__img {
-    /* border: 1px solid rgb(57, 55, 55); */
     width: 20rem;
     height: 30rem;
     border-radius: 1rem;
@@ -48,7 +61,11 @@ article > h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 992px) {
+article > h4 {
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
     .about__container {
         padding-top: 0rem;
         gap: 4rem;
@@ -66,5 +83,106 @@ article > h3 {
     .about__card {
         padding: 0rem;
         text-align: justify;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 2rem;
+        text-align: justify;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 0rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 1rem 9rem;
+        text-align: justify;
+    }
+
+    .about__para {
+        font-size: 0.9rem;
+    }
+
+    .about__img {
+        width: 15rem;
+        height: 25rem;
+    }
+    
+    .about__img__container {
+        width: 15rem;
+        height: 25rem;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .about__container {
+        padding-top: 0rem;
+        gap: 0rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    article > h3 {
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about__card {
+        padding: 0.5rem 13rem;
+        text-align: justify;
+    }
+
+    .about__para {
+        font-size: 0.8rem;
+    }
+
+    .about__img {
+        width: 10rem;
+        height: 20rem;
+    }
+    
+    .about__img__container {
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .skills__container__about {
+        font-size: 1rem;
     }
 }

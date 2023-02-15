@@ -7,8 +7,8 @@ import Socials from './Socials'
 const CTA = () => {
   return (
     <div className="cta animate__block2">
-        <a href={resume} download className='btn'>Download Resume <BsDownload></BsDownload></a>
-        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+        <a href={resume} download className='btn btn-primary'>Download Resume <BsDownload></BsDownload></a>
+        {/* <a href='#contact' className='btn btn-primary'>Let's Talk</a> */}
         <Socials/>
     </div>
   )

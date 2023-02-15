@@ -9,6 +9,21 @@ header {
     justify-content: center;
 }
 
+#landing__heading1 {
+    font-size: 4rem;
+    display: inline;
+}
+
+#landing__heading2 {
+    font-size: 6rem;
+    display: inline;
+}
+
+#landing__heading3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
 .animate__block1{
     animation-name: bounce;
     animation-fill-mode: both;
@@ -103,7 +118,7 @@ header {
 	left: 0;
 	position: absolute;
 	right: 0;
-	top: auto;
+	top: 200px;
 	z-index:0;
 }
 
@@ -240,9 +255,79 @@ header {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
     header {
         padding: 2rem;
         align-items: center;
+    }
+
+    #landing__heading1 {
+        font-size: 2.5rem;
+    }
+
+    #landing__heading2 {
+        font-size: 4.5rem;
+    }
+
+    #landing__heading3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 3rem;
+        align-items: center;
+    }
+
+    #landing__heading1 {
+        font-size: 2rem;
+    }
+
+    #landing__heading2 {
+        font-size: 4rem;
+    }
+
+    #landing__heading3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    header {
+        padding: 1.8rem;
+        align-items: center;
+    }
+
+    #landing__heading1 {
+        font-size: 1.5rem;
+    }
+
+    #landing__heading2 {
+        font-size: 2.5rem;
+    }
+
+    #landing__heading3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    header {
+        padding: 1.8rem;
+        align-items: center;
+    }
+
+    #landing__heading1 {
+        font-size: 1.1rem;
+    }
+
+    #landing__heading2 {
+        font-size: 1.8rem;
+    }
+
+    #landing__heading3 {
+        font-size: 1.1rem;
     }
 }
