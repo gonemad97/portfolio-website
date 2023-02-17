@@ -1,7 +1,6 @@
 header {
     height: 85vh;
     padding-top: 10rem;
-    /* overflow:hidden; */
     background: #d1ecee;
     border-radius: 1rem;
     overflow-x: hidden;
@@ -56,8 +55,6 @@ header {
 .header__container {
     overflow-x: hidden;
     text-align: justify;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .flex__headings {
@@ -68,25 +65,8 @@ header {
     gap: 2rem;
 }
 
-/* section > div > div > div > img {
-    border: 2px solid rgb(57, 55, 55);
-    width: 20rem;
-    height: 25rem;
-    border-radius: 4rem;
-    object-fit: cover;
-    flex-shrink: 0;
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-} */
-
-/* section > div > div > div > img:hover {
-    transform: rotate(0deg);
-} */
 
 .img__container {
-    /* border: 2px solid rgb(57, 55, 55); */
     width: 20rem;
     height: 25rem;
     aspect-ratio: 1/1;
@@ -119,7 +99,7 @@ header {
 	position: absolute;
 	right: 0;
 	top: 200px;
-	z-index:0;
+	z-index: 0;
 }
 
 @-webkit-keyframes animateCloud {
@@ -329,5 +309,9 @@ header {
 
     #landing__heading3 {
         font-size: 1.1rem;
+    }
+
+    #background-wrap {
+        top: 170px;
     }
 }

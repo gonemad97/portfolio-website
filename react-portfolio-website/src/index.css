@@ -23,8 +23,8 @@
     --container-width-el: 95%;
     --container-width-lg: 90%;
     --container-width-md: 80%;
-    --container-width-sm: 70%;
-    --container-width-es: 65%;
+    --container-width-sm: 80%;
+    --container-width-es: 80%;
 
 }
 
@@ -45,13 +45,11 @@ header > div > h4 {
 header > div > h3, header > div > div > h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    /* padding-bottom: 2rem; */
 }
 
 
 body {
     font-family: 'Noto Serif', serif;
-    /* font-family: 'Roboto', sans-serif; */
     background: #f6f6f3;
     color: var(--color-white);
     line-height: 1.7;
@@ -80,7 +78,6 @@ h1 {
 section > h1 {
     text-align: center;
     padding-top: 3rem;
-    /* padding-left: 20rem; */
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -92,8 +89,6 @@ section > h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    /* padding-left: 20rem; */
-    /* margin-bottom: 2rem; */
 }
 
 section > h2 {
@@ -301,7 +296,7 @@ a:hover {
 
 @media screen and (min-width: 481px) and (max-width: 767px){
     .container {
-        width: var(--container-width-md);
+        width: var(--container-width-sm);
     }
 
     section > h1 {
@@ -350,7 +345,7 @@ a:hover {
 
 @media screen and (min-width: 320px) and (max-width: 480px){
     .container {
-        width: var(--container-width-md);
+        width: var(--container-width-es);
     }
 
     section > h1 {
