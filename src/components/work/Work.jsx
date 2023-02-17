@@ -1,12 +1,7 @@
 import React from 'react'
 import './work.css'
 import proj1 from '../../assets/proj1.jpg'
-
-
-import {DiReact,DiAngularSimple, DiCss3, DiHtml5, DiJavascript1, DiMongodb, DiHeroku} from 'react-icons/di'
 import {BsGithub} from 'react-icons/bs'
-import {MdOutlineOpenInNew} from 'react-icons/md'
-import {SiTypescript, SiFigma} from 'react-icons/si'
 
 const Work = () => {
   return (
