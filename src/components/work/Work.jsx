@@ -48,9 +48,9 @@ const Work = () => {
           <img className='card__img__jpg' src={proj1} alt="Project 2" />
         </article>
 
-        <article className='box5'>
+        {/* <article className='box5'>
           <img className='card__img__jpg' src={proj1} alt="Project 3" />
-        </article>
+        </article> */}
 
         {/* <article className='card box6'>
           <h2>BarHopper</h2>
