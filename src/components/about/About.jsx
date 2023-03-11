@@ -31,8 +31,8 @@ const About = () => {
             <h4 className='about__para'>Hey, I'm Madhuri! I'm currently working as a Software Engineer at Goldman Sachs in Salt Lake City.
             I've been trying to find my niche as a Software Engineer for years and it wasn't until I took the lead on a Full Stack project at work, that I
              realized how much I enjoyed Frontend development and UX design!</h4> 
-             <h4 className='about__para'>Besides my technical interests, I love writing, listening to Coldplay, dabbling in makeup and skin care, and playing video games. I'm also trying to be a more active person,
-              (as you can see, I forced a smile while hiking) <BsEmojiSmile/></h4>
+             <h4 className='about__para'>Besides my technical interests, I love writing, listening to Coldplay, dabbling in makeup and skin care, and playing video games. I'm also trying to be a more active person -
+              as you can see, I forced a smile while hiking. <BsEmojiSmile/></h4>
         </article>
 
       </div>

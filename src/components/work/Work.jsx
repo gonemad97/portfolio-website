@@ -2,6 +2,7 @@ import React from 'react'
 import './work.css'
 import proj1 from '../../assets/proj1.jpg'
 import {BsGithub} from 'react-icons/bs'
+import {MdOutlineOpenInNew} from 'react-icons/md'
 
 const Work = () => {
   return (
@@ -25,13 +26,13 @@ const Work = () => {
           </div>
           <div className='cta'>
             <a href="https://github.com/gonemad97/MasterChef" target='__blank' className='btn'><BsGithub style={{fontSize: '1.3rem'}}/></a>
-            {/* <a href="https://github.com/gonemad97" target='__blank' className='btn'><MdOutlineOpenInNew style={{fontSize: '1.3rem'}}/></a> */}
+            <a href="" target='__blank' className='btn'><MdOutlineOpenInNew style={{fontSize: '1.3rem'}}/></a>
           </div>
         </article>
 
         <article className='card__right box3'>
           <h2>ChoreChaser</h2>
-          <h4>App design for interactive website that gamifies allocating and tracking chores amongst co-habitants of a home</h4>
+          <h4>App design for an interactive website that gamifies allocating and tracking chores amongst co-habitants</h4>
           {/* icons for skills */}
           <div className='skills__container'>
             <div className='skill__box'>React</div><div className='skill__box'>Javascript</div>
