@@ -6,7 +6,7 @@ import Socials from './Socials'
 
 const Landing = () => {
   return (
-    <header id="home" className='container'>
+    <header id="home" className='container_'>
         <div id="background-wrap">
             <div className="x1">
               <div className="cloud"></div>

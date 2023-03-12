@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <p>Designed and Built by Madhuri Palanivelu</p>
+      <p><a href="https://github.com/gonemad97/portfolio-website" target="_blank">Designed and Built</a> by Madhuri Palanivelu</p>
     </footer>
   )
 }

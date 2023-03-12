@@ -12,3 +12,12 @@ footer > p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
+footer > p > a {
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+footer > p > a:hover {
+    color: var(--color-primary);
+}
