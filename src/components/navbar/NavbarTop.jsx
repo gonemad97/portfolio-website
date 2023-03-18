@@ -10,7 +10,7 @@ const NavbarTop = () => {
     <nav>
         <div className='flex__container'>
             <div className='flex__container__logo'>
-                <img className='logo' src={me} alt="My Picture" />
+                <img className='logo' src={me} alt="My Picture"/>
                 <a className='nav-link bar-up-logo' href="#">Madhuri Palanivelu</a>
             </div>
             <ul className='navbar__items'>

@@ -1,8 +1,6 @@
 import React from 'react'
 import './landing.css'
 import CTA from './CTA'
-import {BsChevronRight} from 'react-icons/bs'
-import Socials from './Socials'
 
 const Landing = () => {
   return (
