@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.e4828576.css",
-    "main.js": "/portfolio-website/static/js/main.e3e1169d.js",
+    "main.css": "/portfolio-website/static/css/main.84d7356d.css",
+    "main.js": "/portfolio-website/static/js/main.5b586da9.js",
     "static/media/Masterchef2.jpg": "/portfolio-website/static/media/Masterchef2.54ecda264a8dac71706b.jpg",
     "static/media/Masterchef3.jpg": "/portfolio-website/static/media/Masterchef3.2646263ea14f516e0f2f.jpg",
     "static/media/Masterchef1.jpg": "/portfolio-website/static/media/Masterchef1.3ed37a002f11a62ba0e0.jpg",
@@ -13,13 +13,13 @@
     "static/media/me1.jpg": "/portfolio-website/static/media/me1.4c9817fbb218789cad19.jpg",
     "static/media/Chorechasers2.jpg": "/portfolio-website/static/media/Chorechasers2.15bf1e2bcb892912f271.jpg",
     "static/media/Chorechasers3.jpg": "/portfolio-website/static/media/Chorechasers3.05d6a6062f7cf84fff03.jpg",
-    "static/media/resume.pdf": "/portfolio-website/static/media/resume.412fc54f9fec00c66fb6.pdf",
+    "static/media/resume.pdf": "/portfolio-website/static/media/resume.f34e24abf69d625257c3.pdf",
     "index.html": "/portfolio-website/index.html",
-    "main.e4828576.css.map": "/portfolio-website/static/css/main.e4828576.css.map",
-    "main.e3e1169d.js.map": "/portfolio-website/static/js/main.e3e1169d.js.map"
+    "main.84d7356d.css.map": "/portfolio-website/static/css/main.84d7356d.css.map",
+    "main.5b586da9.js.map": "/portfolio-website/static/js/main.5b586da9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4828576.css",
-    "static/js/main.e3e1169d.js"
+    "static/css/main.84d7356d.css",
+    "static/js/main.5b586da9.js"
   ]
 }
