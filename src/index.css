@@ -61,8 +61,16 @@ body {
     margin-bottom: 2rem;
 }
 
-.container__bg {
-    background-color: #f5f3ed;
+.container__bg__about {
+    /* background-color: #f5f3ed; */
+    background-color: #e6efe9;
+    border-radius: 1rem;
+    border: 1px solid rgb(198, 195, 195);
+}
+
+.container__bg__work {
+    /* background-color: #f5f3ed; */
+    background-color: #f6eaef;
     border-radius: 1rem;
     border: 1px solid rgb(198, 195, 195);
 }

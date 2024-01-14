@@ -54,6 +54,12 @@
     text-align: justify;
 }
 
+.about__descr__hightlight {
+    background-color: #dfeaf5;
+    padding:0.1rem 0.1rem;
+    border-radius: 5px;
+}
+
 article > h3 {
     font-family: 'Roboto', sans-serif;
 }

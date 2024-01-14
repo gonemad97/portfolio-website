@@ -22,7 +22,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const Work = () => {
   return (
-    <section id="work" className='container__bg container_'>
+    <section id="work" className='container__bg__work container_'>
       <h1><mark className='pink__highlight'>Portfolio</mark></h1>
       <h3>Projects I've Worked On.</h3>
 

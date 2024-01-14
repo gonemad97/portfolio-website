@@ -31,19 +31,10 @@ const Landing = () => {
           <h3 id='landing__heading1'> Hey there! I'm </h3>
           <h1 id='landing__heading2'><b>Madhuri.</b></h1>
         </div>
-        <h3 id='landing__heading3' className='animate__block2'>A Fullstack Engineer who loves all things <mark className="green__highlight">Web</mark>, <mark className="pink__highlight">Design</mark>, and <mark className="lemon__highlight">Docs</mark>.</h3>
+        <h3 id='landing__heading3' className='animate__block2'>A Full Stack Engineer who loves all things <mark className="green__highlight">Web</mark>, <mark className="pink__highlight">Design</mark>, and <mark className="lemon__highlight">Docs</mark>.</h3>
         <CTA/>
       </div>
 
-      {/* <div className="img__container animate__block1">
-        <div>
-          <img src={me} alt="My Picture" />
-        </div>
-      </div> */}
-
-      {/* <div>
-        <a href="#work" className="scrolldown__work">Scroll Down</a>
-      </div> */}
     </header>
   )
 }
